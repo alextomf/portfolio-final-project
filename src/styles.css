@@ -1,18 +1,31 @@
 :root {
-  --primary-color: red;
-  --secondary-color: blue;
-} 
+  --bg-color: #f9f7fe;
+  --heading-color: #272142;
+  --primary-color: #212529;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
 
 body {
-  background-image: url("../images/patternpad.png");
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 96px;
 }
-
 p {
-  font-size: 24px;
+  font-weight: normal;
 }
 
 a {
@@ -21,4 +34,34 @@ a {
 
 a:visited {
   color: black;
+}
+
+.hero {
+  /* background-image: url("../images/patternpad.png"); */
+  background-color: var(--bg-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--heading-color);
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  color: var(--heading-color);
+}
+
+.btn-outline-dark {
+  border: var(--primary-color) solid 3px;
+  color: var(--primary-color);
+  font-size: 24px;
+  padding: 10px 7px;
 }
