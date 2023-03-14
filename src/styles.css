@@ -40,7 +40,7 @@ p {
   background-image: url("../images/patternpad.png");
   /* background-color: var(--bg-color); */
   text-align: center;
-  padding: 80px 20px;
+  padding: 160px 20px;
 }
 
 .hero p {
