@@ -1,6 +1,6 @@
 :root {
   --bg-color: #f9f7fe;
-  --heading-color: #272142;
+  --heading-color: #173467;
   --primary-color: #212529;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -23,24 +23,24 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
+
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-weight: normal;
-}
-
-a {
-  color: black;
-}
-
-a:visited {
-  color: black;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
-  /* background-image: url("../images/patternpad.png"); */
-  background-color: var(--bg-color);
+  background-image: url("../images/patternpad.png");
+  /* background-color: var(--bg-color); */
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -59,9 +59,52 @@ a:visited {
   color: var(--heading-color);
 }
 
-.btn-outline-dark {
-  border: var(--primary-color) solid 3px;
-  color: var(--primary-color);
+.btn-dark {
+  background: var(--heading-color);
+  color: var(--bg-color);
   font-size: 24px;
-  padding: 10px 7px;
+  padding: 15px 30px;
+}
+
+.btn-outline-dark {
+  border: var(--heading-color) solid 3px;
+  color: var(--heading-color);
+  font-size: 24px;
+  padding: 15px 30px;
+}
+
+.btn-dark:hover {
+  background-color: var(--bg-color);
+  color: var(--heading-color);
+  border-color: var(--heading-color);
+  border: var(--heading-color) solid 3px;
+}
+
+.btn-outline-dark:hover {
+  background: var(--heading-color);
+  color: var(--bg-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
