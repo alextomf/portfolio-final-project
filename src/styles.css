@@ -37,6 +37,11 @@ p {
   line-height: 30px;
 }
 
+nav li {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
 .hero {
   background-image: url("../images/patternpad.png");
   /* background-color: var(--bg-color); */
@@ -88,6 +93,10 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.logo {
+  max-height: 250px;
 }
 
 @media (max-width: 900px) {
