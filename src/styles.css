@@ -1,15 +1,15 @@
 :root {
-  --bg-color: #f9f7fe;
+  --bg-color: #dfe7ef;
   --heading-color: #173467;
   --primary-color: #212529;
   /* --heading-font-family: "Playfair Display", serif; */
-  --heading-font-family: 'Courier Prime', monospace;
+  --heading-font-family: "Courier Prime", monospace;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
-
+  /* background-color: var(--bg-color); */
 }
 
 h1,
@@ -42,6 +42,46 @@ p {
 nav li {
   font-family: var(--default-font-family);
   font-size: 24px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--bg-color);
+  padding: 30px 120px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--heading-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--heading-color);
+  background: var(--bg-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--heading-color);
 }
 
 .hero {
