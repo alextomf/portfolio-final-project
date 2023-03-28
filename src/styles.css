@@ -133,10 +133,16 @@ footer .social-links a:hover {
   color: var(--bg-color);
 }
 
-
-
 .logo {
   max-height: 250px;
+}
+
+.projects p {
+  font-family: var(--default-font-family);
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--heading-color);
 }
 
 @media (max-width: 900px) {
