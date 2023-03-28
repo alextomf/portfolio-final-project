@@ -133,9 +133,7 @@ footer .social-links a:hover {
   color: var(--bg-color);
 }
 
-.project-description {
-  padding: 120px 60px;
-}
+
 
 .logo {
   max-height: 250px;
@@ -155,8 +153,5 @@ footer .social-links a:hover {
     padding: 80px 20px;
   }
 
-  .project-desciption {
-    padding: 0;
-    text-align: center;
-  }
+
 }
