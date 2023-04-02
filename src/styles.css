@@ -142,7 +142,7 @@ footer .social-links a:hover {
   color: var(--heading-color);
   font-size: 24px;
   padding: 15px 25px;
-  margin: 20px 10px;
+  margin: 10px 50px;
 }
 
 .btn-outline-dark:hover {
